@@ -6,8 +6,8 @@ import java.sql.*;
 
 public class OracleConnection {
     //定义连接字符串(协议名:jdbc:oracle:thin@oracle据库服务器主机ip:数据库监听端口号:SID)
-    private String url = "jdbc:oracle:thin:@10.45.66.161:1521:cc";
-    private String userName = "crmv81";  //数据库用户名
+    private String url = "jdbc:oracle:thin:@10.45.66.131:1521:cc";
+    private String userName = "spn";  //数据库用户名
     private String password = "smart";  //登录密码
     private Connection connector;
 
